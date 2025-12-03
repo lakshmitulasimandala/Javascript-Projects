@@ -21,8 +21,8 @@ Click a project to view its code:
 
 
 📂 Folder Structure
-
-javascript-mini-projects/
+```
+📦 javascript-mini-projects/
 │
 ├── counter-app/
 │   ├── index.html
@@ -38,6 +38,7 @@ javascript-mini-projects/
     ├── index.html
     ├── style.css
     └── app.js
+```
 
 ✨ What This Repo Shows
 
