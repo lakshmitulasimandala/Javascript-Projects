@@ -8,16 +8,16 @@
 A collection of small, beginner-friendly JavaScript projects I built while learning DOM, events, conditionals, and core JS concepts.
 Each project is organized in its own folder and can be viewed individually.
 
-🚀 Projects Included
+
+## 🚀 Projects Included
 
 Click a project to view its code:
 
-Project Name	Link
-| Project Name      | Link                              |
-| ----------------- | --------------------------------- |
-| **Counter App**   | 👉 `https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CounterApplication`   |
-| **Light On/Off**  | 👉 `https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/GuessingGame`  |
-| **Guessing Game** | 👉 `https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/LightsOnOff` |
+| Project | Code |
+|--------|------|
+| 🔢 [Counter App](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CounterApplication) | 📂 View Folder |
+| 💡 [Light On/Off](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/LightsOnOff) | 📂 View Folder |
+| 🎯 [Guessing Game](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/GuessingGame) | 📂 View Folder |
 
 
 📂 Folder Structure
