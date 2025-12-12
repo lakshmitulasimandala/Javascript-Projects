@@ -1,19 +1,21 @@
 let todoItemsContainer = document.getElementById("todoItemsContainer");
 
-let todoList = [
-    {
-        text: "Learn HTML",
-        uniqueNo: 1
-    },
-    {
-        text: "Learn CSS",
-        uniqueNo: 2
-    },
-    {
-        text: "Learn Javascript",
-        uniqueNo: 3
-    }
-]
+//let todoList = [
+    //{
+        //text: "Learn HTML",
+        //uniqueNo: 1
+    //},
+    //{
+        //text: "Learn CSS",
+        //uniqueNo: 2
+    //},
+    //{
+        //text: "Learn Javascript",
+        //uniqueNo: 3
+    //}
+//]
+
+let todoList = loadTodoList();
 
 function onToDoStatusChange(labelId){//checkboxId, labelId) {
     //let checkboxElem = document.getElementById(checkboxId);
@@ -31,6 +33,17 @@ function onToDoStatusChange(labelId){//checkboxId, labelId) {
 function onDeleteTodoItem(todoId){
     let todoElem = document.getElementById(todoId);
     todoItemsContainer.removeChild(todoElem);
+
+    let index = todoList.findIndex(function(eachTodo){
+        let eachTodoId = "todo" + eachTodo.uniqueNo;
+        if(eachTodoId === todoId){
+            return true;
+        }else{
+            return false;
+        }
+    });
+
+    todoList.splice(index,1);
 }
 
 
@@ -54,7 +67,7 @@ function createandAppendTodoItem(todo) {
     //console.log(inputElement);
 
     inputElement.onclick = function(){
-        onToDoStatusChange(checkboxId, labelId);
+        onToDoStatusChange(labelId);
     }
 
 
@@ -107,6 +120,7 @@ function onAddTodoButtonClick(){
         text : userInputValue,
         uniqueNo : todoCount
     }
+    todoList.push(newTodo);
     createandAppendTodoItem(newTodo);
     userInputElem.value = "";
 }
@@ -117,3 +131,19 @@ let addTodoButton = document.getElementById("addTodoButton");
 addTodoButton.onclick = function(){
     onAddTodoButtonClick();
 }
+
+let saveTodoBtn = document.getElementById("saveTodoBtn");
+saveTodoBtn.onclick = function(){
+    localStorage.setItem("todoList", JSON.stringify(todoList));
+}
+
+function loadTodoList(){
+    let strigifiedTodoList = localStorage.getItem("todoList");
+    let parsedTodoList = JSON.parse(strigifiedTodoList);
+    if(parsedTodoList === null){
+        return [];
+    }else{
+        return parsedTodoList;
+    }
+}
+
