@@ -17,7 +17,7 @@ let todoItemsContainer = document.getElementById("todoItemsContainer");
 
 let todoList = loadTodoList();
 
-function onToDoStatusChange(labelId){//checkboxId, labelId) {
+function onToDoStatusChange(labelId, todoId){//checkboxId, labelId) {
     //let checkboxElem = document.getElementById(checkboxId);
     let labelElem = document.getElementById(labelId);
     //if(checkboxElem.checked === true){
@@ -27,6 +27,22 @@ function onToDoStatusChange(labelId){//checkboxId, labelId) {
         //labelElem.classList.remove("checked");
     //}
     labelElem.classList.toggle("checked");
+    let index = todoList.findIndex(function(eachTodo){
+        let eachTodoId = "todo" + eachTodo.uniqueNo;
+        if(eachTodoId == todoId){
+            return true;
+        }else{
+            return false;
+        }
+    });
+
+    let todoObject = todoList[index];
+    if(todoObject.isChecked === true){
+        todoObject.isChecked = false;
+    }else{
+        todoObject.isChecked = true;
+    }
+
 }
 
 
@@ -62,12 +78,13 @@ function createandAppendTodoItem(todo) {
     let inputElement = document.createElement("input");
     inputElement.type = "checkbox";
     inputElement.id = checkboxId;
+    inputElement.checked = todo.isChecked;
     inputElement.classList.add("checkbox-input");
     todoElement.appendChild(inputElement);
     //console.log(inputElement);
 
     inputElement.onclick = function(){
-        onToDoStatusChange(labelId);
+        onToDoStatusChange(labelId, todoId);
     }
 
 
@@ -81,6 +98,9 @@ function createandAppendTodoItem(todo) {
     labelElement.setAttribute("for", checkboxId);
     labelElement.classList.add("checkbox-label");
     labelElement.textContent = todo.text;
+    if(todo.isChecked === true){
+        labelElement.classList.add("checked");
+    }
     labelContainer.appendChild(labelElement);
     //console.log(labelElement);
 
@@ -118,7 +138,8 @@ function onAddTodoButtonClick(){
     todoCount += 1;
     let newTodo = {
         text : userInputValue,
-        uniqueNo : todoCount
+        uniqueNo : todoCount,
+        isChecked: false
     }
     todoList.push(newTodo);
     createandAppendTodoItem(newTodo);
