@@ -51,7 +51,7 @@ Click a project to view its code:
     ├── index.html
     ├── style.css
     └── app.js
-
+```
 
 
 ✨ What This Repo Shows
