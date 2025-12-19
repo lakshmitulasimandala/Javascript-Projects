@@ -15,9 +15,11 @@ Click a project to view its code:
 
 | Project | Code |
 |--------|------|
-| 🔢 [Counter App](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CounterApplication) | 📂 View Folder |
-| 💡 [Light On/Off](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/LightsOnOff) | 📂 View Folder |
-| 🎯 [Guessing Game](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/GuessingGame) | 📂 View Folder |
+| 🔢 [Counter App] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CounterApplication) |
+| 💡 [Light On/Off] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/LightsOnOff) |
+| 🎯 [Guessing Game] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/GuessingGame) |
+| 📝 [ToDos Application] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ToDosApplication) |
+| 🤖 [Manual ChatBot] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ManualChatBot) |
 
 
 📂 Folder Structure
@@ -34,40 +36,52 @@ Click a project to view its code:
 │   ├── style.css
 │   └── app.js
 │
-└── guessing-game/
+├── guessing-game/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
+├── todos-application/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
+└── manual-chatbot/
     ├── index.html
     ├── style.css
     └── app.js
-```
+
+
 
 ✨ What This Repo Shows
 
--My understanding of JavaScript fundamentals
--DOM manipulation
--Event handling
--Conditionals & loops
--Clean folder structure
--Continuous improvement through mini projects
+- My understanding of JavaScript fundamentals  
+- DOM manipulation  
+- Event handling  
+- Conditionals & loops  
+- Clean folder structure  
+- Continuous improvement through mini projects  
 
 🎯 Purpose of This Repository
 
 This repo is my personal practice space to strengthen my JavaScript foundations.
 It will keep growing as I build more small projects like:
 
--> Color Picker
--> Todo App (Advanced)
--> Calculator
--> Timer / Stopwatch
--> Weather App (API)
--> Stay tuned!
+-> Color Picker  
+-> Todo App (Advanced)  
+-> Calculator  
+-> Timer / Stopwatch  
+-> Weather App (API)  
+-> Stay tuned!  
 
 ⭐ If you like this repository, don’t forget to give it a star!
 Want an even more aesthetic version?
 
 I can add:
 
-✅ Badges
-✅ Project GIF thumbnails
-✅ Emojis & color blocks
-✅ Live demo links
+✅ Badges  
+✅ Project GIF thumbnails  
+✅ Emojis & color blocks  
+✅ Live demo links  
+
 Just tell me “make it fancy”.
