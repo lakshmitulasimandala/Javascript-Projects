@@ -15,11 +15,12 @@ Click a project to view its code:
 
 | Project | Code |
 |--------|------|
-| 🔢 [Counter App] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CounterApplication) |
-| 💡 [Light On/Off] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/LightsOnOff) |
-| 🎯 [Guessing Game] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/GuessingGame) |
-| 📝 [ToDos Application] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ToDosApplication) |
-| 🤖 [Manual ChatBot] | 📂 View Folder(https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ManualChatBot) |
+| 🔢 Counter App | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CounterApplication) |
+| 💡 Light On/Off | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/LightsOnOff) |
+| 🎯 Guessing Game | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/GuessingGame) |
+| 📝 ToDos Application | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ToDosApplication) |
+| 🤖 Manual ChatBot | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ManualChatBot) |
+
 
 
 📂 Folder Structure
