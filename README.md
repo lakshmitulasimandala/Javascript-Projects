@@ -41,8 +41,7 @@ Each project is organized in its own folder and can be viewed independently.
 ├── ToDosApplication/
 └── README.md
 
-
----
+```
 
 ## ✨ What This Repository Shows
 
