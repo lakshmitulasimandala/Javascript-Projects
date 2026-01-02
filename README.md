@@ -23,6 +23,8 @@ Each project is organized in its own folder and can be viewed independently.
 | 💣 Bomb Defuser | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/BombDefuser) |
 | ⏱️ Peace Timer | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/PeaceTimer) |
 | 🎛️ Custom Button | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CustomButton) |
+| 🎨 Change Theme | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ChangeTheme) |
+| 🔍 Wikipedia Search Application | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/WikipediaSearchApplication) |
 
 ---
 
@@ -32,6 +34,7 @@ Each project is organized in its own folder and can be viewed independently.
 📦 Javascript-Projects/
 │
 ├── BombDefuser/
+├── ChangeTheme/
 ├── CounterApplication/
 ├── CustomButton/
 ├── GuessingGame/
@@ -39,9 +42,9 @@ Each project is organized in its own folder and can be viewed independently.
 ├── ManualChatBot/
 ├── PeaceTimer/
 ├── ToDosApplication/
+├── WikipediaSearchApplication/
 └── README.md
 
-```
 
 ## ✨ What This Repository Shows
 
@@ -60,38 +63,12 @@ This repository is my **JavaScript practice playground** where I strengthen my f
 
 ### More projects planned 👇
 
-- 🎨 Color Picker  
-- 🧮 Calculator  
+- 🎨 Color Picker 
 - ⏱️ Stopwatch / Timer  
-- ☁️ Weather App (API)  
-- 📝 Advanced ToDo App  
+- ☁️ Weather App (API)
 
 ---
 
 ⭐ If you like this repository, don’t forget to **give it a star**!
 
 ---
-
-## 🎨 Want it even more aesthetic?
-
-I can add:
-
-- ✅ Project GIF previews  
-- ✅ Live demo links  
-- ✅ Section dividers & color blocks  
-- ✅ GitHub Pages deployment  
-
-Just tell me: **“make it fancy”** ✨
-
----
-
-## 💡 Why this README is solid
-
-- Matches **exact folder names**  
-- Looks **professional & recruiter-friendly**  
-- Shows **growth mindset**  
-- Easy to extend when new projects are added  
-
-### You all can follow it in anyorder to understand JS:
-
-You’re building this the **right way** 👌
