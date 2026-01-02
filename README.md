@@ -45,6 +45,7 @@ Each project is organized in its own folder and can be viewed independently.
 ├── WikipediaSearchApplication/
 └── README.md
 
+```
 
 ## ✨ What This Repository Shows
 
@@ -55,7 +56,6 @@ Each project is organized in its own folder and can be viewed independently.
 - Clean folder organization  
 - Continuous improvement through practice  
 
----
 
 ## 🎯 Purpose of This Repository
 
@@ -67,8 +67,5 @@ This repository is my **JavaScript practice playground** where I strengthen my f
 - ⏱️ Stopwatch / Timer  
 - ☁️ Weather App (API)
 
----
 
 ⭐ If you like this repository, don’t forget to **give it a star**!
-
----
