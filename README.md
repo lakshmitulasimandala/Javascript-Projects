@@ -61,7 +61,7 @@ Each project is organized in its own folder and can be viewed independently.
 
 ## 🎯 Purpose of This Repository
 
-This repository is my **JavaScript practice playground** where I strengthen my foundations by building small, functional projects.
+This repository is my **JavaScript practice playground** where I strengthen my foundations by building small, functional projects. Being a **NXTWAVE** Student ,I am showcasing what all i've learnt from that platform, through this Repository.
 
 ### More projects planned 👇
 
