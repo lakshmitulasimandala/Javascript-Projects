@@ -25,6 +25,7 @@ Each project is organized in its own folder and can be viewed independently.
 | 🎛️ Custom Button | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CustomButton) |
 | 🎨 Change Theme | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ChangeTheme) |
 | 🔍 Wikipedia Search Application | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/WikipediaSearchApplication) |
+| 🔍 Countries Search Page | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CountriesSearchPage) |
 
 ---
 
@@ -43,6 +44,7 @@ Each project is organized in its own folder and can be viewed independently.
 ├── PeaceTimer/
 ├── ToDosApplication/
 ├── WikipediaSearchApplication/
+├── CountriesSearchPage/
 └── README.md
 
 ```
@@ -63,7 +65,7 @@ This repository is my **JavaScript practice playground** where I strengthen my f
 
 ### More projects planned 👇
 
-- 🎨 Color Picker 
+- 🎨 Forms
 - ⏱️ Stopwatch / Timer  
 - ☁️ Weather App (API)
 
