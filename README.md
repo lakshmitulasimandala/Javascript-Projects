@@ -26,6 +26,7 @@ Each project is organized in its own folder and can be viewed independently.
 | 🎨 Change Theme | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/ChangeTheme) |
 | 🔍 Wikipedia Search Application | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/WikipediaSearchApplication) |
 | 🔍 Countries Search Page | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/CountriesSearchPage) |
+| 📝 Forms1 | 📂 [View Folder](https://github.com/lakshmitulasimandala/Javascript-Projects/tree/main/Forms1) |
 
 ---
 
@@ -45,6 +46,7 @@ Each project is organized in its own folder and can be viewed independently.
 ├── ToDosApplication/
 ├── WikipediaSearchApplication/
 ├── CountriesSearchPage/
+├── Forms1/
 └── README.md
 
 ```
@@ -65,8 +67,7 @@ This repository is my **JavaScript practice playground** where I strengthen my f
 
 ### More projects planned 👇
 
-- 🎨 Forms
-- ⏱️ Stopwatch / Timer  
+- ⏱️ Stopwatch / Timer / Clock App
 - ☁️ Weather App (API)
 
 
